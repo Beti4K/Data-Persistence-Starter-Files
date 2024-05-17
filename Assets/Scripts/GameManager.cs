@@ -28,10 +28,10 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
 
-        bestScore = GameObject.Find("BestScore").GetComponent<TextMeshProUGUI>();
-
-        LoadHighscore();
+    private void Update()
+    {
         DisplayHighscore();
     }
 
@@ -73,6 +73,8 @@ public class GameManager : MonoBehaviour
 
     public void DisplayHighscore()
     {
+        LoadHighscore();
+        bestScore = GameObject.Find("BestScore").GetComponent<TextMeshProUGUI>();
         bestScore.text = highScore.ToString() + " (" + highScorePlayerName + ")";
     }
 }
