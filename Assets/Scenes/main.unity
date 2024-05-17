@@ -649,7 +649,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 100}
+  m_SizeDelta: {x: 675.576, y: 144.3202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474497240
 MonoBehaviour:
@@ -673,7 +673,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -684,9 +684,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'GAME OVER
-
-    Press Space to Restart'
+  m_Text: "GAME OVER\nPress Space to Restart\nPress Escape to go to the \nMain Menu"
 --- !u!222 &474497241
 CanvasRenderer:
   m_ObjectHideFlags: 0

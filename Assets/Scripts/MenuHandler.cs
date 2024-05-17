@@ -25,6 +25,6 @@ public class MenuHandler : MonoBehaviour
 
     public void setName()
     {
-        MainManager.Instance.playerName = playerName.text;
+        GameManager.Instance.playerName = playerName.text;
     }
 }
